@@ -5,5 +5,8 @@ Push - Enviar os arquivos do repositório local (salvos em um Commmit) para o re
 Pop - Aplica as mudanças do stash mais recente ao seu diretório de trabalho e removerá esse stash da lista de stashes
 
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
+
+Permite a realização do desenvolvimento de versões diferentes em paralelo.
+
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
