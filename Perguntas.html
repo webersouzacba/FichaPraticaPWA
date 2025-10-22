@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Perguntas e Respostas Git</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .resposta {
+      margin-bottom: 20px;
+    }
+    .resposta ul {
+      margin-top: 5px;
+    }
+    .resposta p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Perguntas e Respostas sobre Git</h1>
+
+  <ol>
+    <li>
+      <p><b>O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</b></p>
+      <div class="resposta">
+        <ul>
+          <li><b>Commit:</b> <i>Salva uma versão do que foi realizado no repositório local</i>, <u>sem atualizar o repositório Git remoto</u>.</li>
+          <li><b>Push:</b> <i>Envia as mudanças salvas</i> para o <u>repositório remoto</u> (GitHub ou outro).</li>
+          <li><b>Pop:</b> <i>Recupera as alterações salvas temporariamente</i> com o uso do comando <code>git stash</code>.</li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <p><b>Quais são as vantagens de usar Branchs num repositório git?</b></p>
+      <div class="resposta">
+        <ul>
+          <li><b>Branchs:</b> Permitem <u>evoluir versões diferentes</u> de um projeto sem interferência entre elas, facilitando o <i>trabalho em equipe</i>.</li>
+          <li>Quando necessário, pode ser realizado o <b>Merge</b>, que <i>une as versões</i> em uma única linha de evolução do projeto.</li>
+        </ul>
+      </div>
+    </li>
+
+    <li>
+      <p><b>Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</b></p>
+      <div class="resposta">
+        <p>Os <b>conflitos</b> acontecem quando <u>mais de uma versão altera os mesmos trechos</u> do código e o Git não sabe qual alteração manter.</p>
+        <p>O Git informa onde ocorreram os conflitos e nós <i>escolhemos qual versão irá prevalecer</i>.</p>
+      </div>
+    </li>
+
+    <li>
+      <p><b>“Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</b></p>
+      <div class="resposta">
+        <ul>
+          <li><b>Clone:</b> Ideal para <i>trabalhar em projetos próprios ou da equipe</i>. Faz uma cópia do repositório remoto na máquina local, <u>mantendo vínculo com o original</u>. Permite usar <code>pull</code> para atualizar e <code>push</code> para enviar mudanças.</li>
+          <li><b>Fork:</b> Ideal para <i>contribuir em projetos de terceiros</i>. Cria uma cópia independente no seu GitHub. Permite <u>alterações livres</u> e envio de <code>pull requests</code> para o repositório original.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+
+</body>
+</html>
