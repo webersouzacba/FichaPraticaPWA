@@ -10,4 +10,7 @@
         Quando necessário pode ser ralizado o Merge que une as versão em uma única linah de evolução do projeto.
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
+    Resposta:
+        Os conflitos acontecem quando mais de uma versão alteram o(s) mesmo(s) trechos do código e o Git não sabe qual atlteração deve prevalecer. O Git informa onde ocorreram os conflitos e nós definimos qual versão irá prevalecer.
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?clear
