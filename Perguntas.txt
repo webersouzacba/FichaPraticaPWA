@@ -13,4 +13,11 @@
     Resposta:
         Os conflitos acontecem quando mais de uma versão alteram o(s) mesmo(s) trechos do código e o Git não sabe qual atlteração deve prevalecer. O Git informa onde ocorreram os conflitos e nós definimos qual versão irá prevalecer.
 
-4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?clear
+4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
+    Resposta:
+        Clone:  É ideal para trabalho em projetos próprios ou da equipe em que participamos.
+                Faz uma cópia do repositório remoto na máquina local mantendo um vínculo com o repositório remoto.
+                Em um repositório clonado podemos puxar atualizações do original com o pull e enviar mudanças com o push.
+        Fork:  É ideal para contribuir em projetos de outra pessoa, equipe ou insituição.
+               Permite que sejam realizadas alterações no repositório local independente do repositório remoto original.
+               Permite que sejam realizadas mudanças à vontade no repositório local e depois mandar um pull request para o repositório remoto original.
